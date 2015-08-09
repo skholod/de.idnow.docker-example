@@ -1,0 +1,3 @@
+[submodule "application/de.idnow.example"]
+	path = application/de.idnow.example
+	url = https://github.com/arminbauer/de.idnow.example
