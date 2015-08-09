@@ -10,7 +10,8 @@ You need:
 
 The code to run is located in the de.idnow.example project at https://github.com/arminbauer/de.idnow.example. It is already included as a git submodule at application/de.idnow.example. To pull the code, please run the following command:
 
-git submodule foreach git pull origin master
+git submodule init
+git submodule update
 
 ##Your tasks
 
