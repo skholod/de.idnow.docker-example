@@ -5,3 +5,4 @@ cd de.idnow.example
 cd ..
 
 # now create the docker image
+docker build -t idnow:idapp .

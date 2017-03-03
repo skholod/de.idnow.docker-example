@@ -1,0 +1,10 @@
+# IDNow frontend
+server {
+        listen 80 default_server;
+
+        server_name idfe.idnow.eu;
+
+        location / {
+                proxy_pass http://idapp:9000;
+        }
+}
